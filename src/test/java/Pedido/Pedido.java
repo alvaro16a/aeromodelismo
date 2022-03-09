@@ -1,12 +1,12 @@
-package co.com.sofka.Pedido;
+package Pedido;
 
-import co.com.sofka.Pedido.Values.ClienteID;
-import co.com.sofka.Pedido.Values.Direccion;
-import co.com.sofka.Pedido.Values.PedidoID;
-import co.com.sofka.Pedido.Values.Persona;
-import co.com.sofka.Pedido.events.ClienteCreado;
-import co.com.sofka.Pedido.events.ClienteModificado;
-import co.com.sofka.Pedido.events.PedidoCreado;
+import Pedido.Values.ClienteID;
+import Pedido.Values.Direccion;
+import Pedido.Values.PedidoID;
+import Pedido.Values.Persona;
+import Pedido.events.ClienteCreado;
+import Pedido.events.ClienteModificado;
+import Pedido.events.PedidoCreado;
 import co.com.sofka.domain.generic.AggregateEvent;
 import co.com.sofka.domain.generic.DomainEvent;
 
@@ -16,8 +16,8 @@ import java.util.Objects;
 public class Pedido extends AggregateEvent<PedidoID> {
 
     protected Cliente cliente;
-    //protected TiendaID tiendaID;
-    // protected CotizacionID cotizacionID;
+    protected TiendaID tiendaID;
+    //protected CotizacionID cotizacionID;
 
 
     public Pedido(PedidoID entityId, Cliente cliente) {
@@ -37,10 +37,10 @@ public class Pedido extends AggregateEvent<PedidoID> {
     }
 
 
-    //public void consultarTienda(TiendaID tiendaID){
-    //  validar nulos
-    //    appendChange(new TiendaConsultada(tiendaID) );
-    //}
+    public void consultarTienda(TiendaID tiendaID){
+
+        appendChange(new TiendaConsultada(tiendaID) );
+    }
 
     public void crearCliente(Persona persona, Direccion direccion){
 
@@ -61,7 +61,7 @@ public class Pedido extends AggregateEvent<PedidoID> {
         return cliente;
     }
 
-    //public TiendaID tiendaID() {
-     //   return tiendaID;
-   // }
+    public TiendaID tiendaID() {
+        return tiendaID;
+    }
 }

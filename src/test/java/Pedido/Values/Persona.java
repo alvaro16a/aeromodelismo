@@ -1,8 +1,7 @@
-package co.com.sofka.Pedido.Values;
+package Pedido.Values;
 
 import co.com.sofka.domain.generic.ValueObject;
 
-import java.util.Map;
 import java.util.Objects;
 
 public class Persona implements ValueObject<Persona> {

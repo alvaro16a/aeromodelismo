@@ -1,8 +1,6 @@
-package co.com.sofka.Pedido;
+package Pedido;
 
-import co.com.sofka.Pedido.Values.PedidoID;
-import co.com.sofka.Pedido.events.PedidoCreado;
-import co.com.sofka.Pedido.events.TiendaConsultada;
+import Pedido.events.PedidoCreado;
 import co.com.sofka.domain.generic.EventChange;
 
 public class PedidoChange extends EventChange {

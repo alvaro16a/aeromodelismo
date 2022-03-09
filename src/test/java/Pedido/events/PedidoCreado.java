@@ -1,6 +1,6 @@
-package co.com.sofka.Pedido.events;
+package Pedido.events;
 
-import co.com.sofka.Pedido.Cliente;
+import Pedido.Cliente;
 import co.com.sofka.domain.generic.DomainEvent;
 
 

@@ -30,11 +30,11 @@
 
     <dependency>
       <groupId>co.com.sofka</groupId>
-<<<<<<< HEAD
+
       <artifactId>business</artifactId>
-=======
-      <artifactId>domain</artifactId>
->>>>>>> origin/tienda
+
+
+
       <version>1.5.0</version>
     </dependency>
 
@@ -47,8 +47,6 @@
    
   </dependencies>
 
-<<<<<<< HEAD
-=======
- 
->>>>>>> origin/tienda
+
+
 </project>

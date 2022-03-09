@@ -1,4 +1,4 @@
-package co.com.sofka.Pedido.Values;
+package Pedido.Values;
 
 import co.com.sofka.domain.generic.ValueObject;
 

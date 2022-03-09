@@ -1,7 +1,6 @@
-package co.com.sofka.Pedido.comands;
+package Pedido.comands;
 
-import co.com.sofka.Pedido.Pedido;
-import co.com.sofka.Pedido.Values.PedidoID;
+import Pedido.Values.PedidoID;
 import co.com.sofka.domain.generic.Command;
 
 public class consultarTienda extends Command {

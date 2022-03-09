@@ -1,8 +1,8 @@
-package co.com.sofka.Pedido.comands;
+package Pedido.comands;
 
-import co.com.sofka.Pedido.Values.ClienteID;
-import co.com.sofka.Pedido.Values.Direccion;
-import co.com.sofka.Pedido.Values.Persona;
+import Pedido.Values.ClienteID;
+import Pedido.Values.Direccion;
+import Pedido.Values.Persona;
 import co.com.sofka.domain.generic.Command;
 
 public class modificarCliente extends Command {

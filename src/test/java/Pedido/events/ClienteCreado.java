@@ -1,7 +1,7 @@
-package co.com.sofka.Pedido.events;
+package Pedido.events;
 
-import co.com.sofka.Pedido.Values.Direccion;
-import co.com.sofka.Pedido.Values.Persona;
+import Pedido.Values.Direccion;
+import Pedido.Values.Persona;
 import co.com.sofka.domain.generic.DomainEvent;
 
 public class ClienteCreado extends DomainEvent {
