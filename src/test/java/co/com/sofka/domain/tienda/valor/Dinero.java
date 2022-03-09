@@ -12,7 +12,11 @@ public class Dinero implements ValueObject<Dinero.Props>{
     
     public Dinero(String moneda, Integer monto) {
         this.moneda =Objects.requireNonNull(moneda);
+        if(monto > 0)
         this.monto = monto;
+        else{
+            throw new IllegalArgumentException("El objeto debe tener un valor mayor a cero");
+        }
     }
 
     @Override
@@ -28,8 +32,6 @@ public class Dinero implements ValueObject<Dinero.Props>{
             public Integer monto() {
                 return monto;
             }
-
-            
         };
     }
 
