@@ -1,0 +1,27 @@
+
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
+n
+>src/test/java/co/com/sofka/domain/tienda/valor/ProductoId.java,6\c\6c94ec6537f29aec25c272d155ab26561ad89284
+j
+:src/test/java/co/com/sofka/domain/tienda/valor/Dinero.java,d\c\dc616ef02a291406eefdcc135cd1a4075e55d57b
+l
+<src/test/java/co/com/sofka/domain/tienda/valor/CompraId.java,6\b\6ba7915ceadb72b4ff7ce23fb171e864b43a9be8
+Q
+!src/test/java/Pedido/Cliente.java,a\7\a7a5f29b9e84a16b62da60de6f57a2d2f5959d08
+X
+(src/test/java/Pedido/Values/Persona.java,8\f\8f0ee14d4dac3d5cf13dd43260e2bad47a58783c
+Y
+)src/test/java/Pedido/Values/PedidoID.java,9\d\9d0075292677e3f0ef3fb9ebcf4b99b99a59d8a7
+Z
+*src/test/java/Pedido/Values/Direccion.java,8\6\867c8fbde1222fd3f7a83fff30d36acc85da5d55
+Z
+*src/test/java/Pedido/Values/ClienteID.java,2\a\2a1d66996343967a1e89558e1c3323567024cc78
+a
+1src/test/java/Pedido/events/TiendaConsultada.java,2\c\2cdcf2bf226acddd40843997780e9b66ab058c49
+P
+ src/test/java/Pedido/Pedido.java,8\3\831820ee087aba04accadeb342b8b11b2ec995ff
+a
+1src/test/java/Pedido/comands/consultarTienda.java,7\f\7fa31671a7fd0b15625d248354108dabb3db664b
+d
+4src/test/java/co/com/sofka/domain/tienda/Tienda.java,4\b\4b57b2397c59480f6310cfdb477d662ab7a46e89
