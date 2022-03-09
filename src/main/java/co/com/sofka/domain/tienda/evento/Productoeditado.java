@@ -1,9 +1,9 @@
-package co.com.sofka.domain.tienda;
+package co.com.sofka.domain.tienda.evento;
 
 import co.com.sofka.domain.generic.DomainEvent;
 import co.com.sofka.domain.tienda.valor.ProductoId;
 
-public class ProductoCreado extends DomainEvent{
+public class Productoeditado extends DomainEvent {
 
     private final ProductoId productoId;
     private final String nombre;
@@ -11,14 +11,13 @@ public class ProductoCreado extends DomainEvent{
     private final String moneda;
     private final Integer monto;
 
-    public ProductoCreado(ProductoId productoId, String nombre, String detalles,String moneda, Integer monto){
-        super("tienda.productocreado");
+    public Productoeditado(ProductoId productoId, String nombre, String detalles, String moneda, Integer monto) {
+        super("tienda.productoeditado");
         this.productoId=productoId;
         this.nombre = nombre;
         this.detalles=detalles;
         this.moneda=moneda;
         this.monto=monto;
-
     }
 
     public ProductoId getProductoId() {
@@ -40,5 +39,4 @@ public class ProductoCreado extends DomainEvent{
     public Integer getMonto() {
         return monto;
     }
-
 }
