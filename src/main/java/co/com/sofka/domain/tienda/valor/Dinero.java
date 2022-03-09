@@ -11,12 +11,13 @@ public class Dinero implements ValueObject<Dinero.Props>{
 
     
     public Dinero(String moneda, Integer monto) {
+        //Reglas de dominio nombre de la moneda y valores no negativos
         this.moneda =Objects.requireNonNull(moneda);
-        if(monto > 0)
-        this.monto = monto;
-        else{
-            throw new IllegalArgumentException("El objeto debe tener un valor mayor a cero");
+        if(monto <= 0){
+            throw new IllegalArgumentException("El objeto no puede tener un valor negativo");
         }
+        this.monto = monto;
+ 
     }
 
     @Override

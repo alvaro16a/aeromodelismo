@@ -11,5 +11,7 @@ public class Compra extends Entity<CompraId>{
     public Compra(CompraId entityId) {
         super(entityId);
     }
+
+    List<ProductoId> productos;
     
 }

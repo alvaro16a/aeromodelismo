@@ -42,6 +42,4 @@ public class Producto extends Entity<ProductoId>{
         this.precio =  new Dinero(moneda, monto);
     }
 
-    
-    
 }
